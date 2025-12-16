@@ -1,0 +1,41 @@
+@media screen and (min-width: 1050px) and (max-width:1400px) {
+    .mobile-index-flex {
+        margin-top: calc(30px + 35px * 10);
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 35px 35px;
+    }
+
+    /*============================================*/
+
+    .about-box {
+        width: 50vw;
+        height: 70px;
+        border: 2px solid #fff;
+        margin-bottom: 35px;
+        
+    }
+    .about-div > div {
+        width: 22vw;
+        font-size: 15.3px;
+    }
+    .about-div > div:last-child {
+        width: 25vw;
+    }
+
+    /*============================================*/
+
+    .cd-data > div > h1 {
+        font-size: min(4.2vw, 64px);
+    }
+
+    .cd-title-price h1 {
+        font-size: min(4.2vw, 48px);
+        /* line-height: calc(35px * 3); */
+    }
+    .cd-title-price p {
+        font-size: 16px;
+    }
+
+
+}
